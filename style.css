@@ -20,9 +20,16 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 30px 50px;
+  text-align: center;
 }
 
 .counter {
   font-size: 3.75rem;
   margin: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
 }
